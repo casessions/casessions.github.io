@@ -1,0 +1,58 @@
+body {
+    margin: 0px padding 0px
+}
+
+.main-background {
+    background-image: url("./Tattoo woman.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.main-nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(195, 170, 28, 0.421);
+}
+
+.sticky.main-nav {
+    position: flex;
+    right: 1px;
+}
+
+.main-nav li {
+    font-size: 2rem;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px 10px;
+    background-color: antiquewhite;
+    text-emphasis-color: black;
+    font-style: italic;
+
+}
+
+.main-nav button {
+    font-size: 2rem;
+    display: inline-block;
+    border: 5px solid black;
+    padding: 15px 0px;
+    background-color: antiquewhite;
+    text-emphasis-color: black;
+    justify-content: center;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+h1 {
+    color: antiquewhite;
+    font-size: 6rem;
+    font-style: italic
+}

@@ -1,0 +1,31 @@
+.main-nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(195, 170, 28, 0.421);
+}
+
+.sticky.main-nav {
+    position: flex;
+    right: 50px;
+}
+
+.main-nav li {
+    font-size: 1rem;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px 10px;
+    background-color: antiquewhite;
+    text-emphasis-color: black;
+
+}
+
+.main-nav button {
+    font-size: 1rem;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px 5px;
+    background-color: antiquewhite;
+    text-emphasis-color: black;
+    justify-content: center;
+    margin: 20px;
+}
