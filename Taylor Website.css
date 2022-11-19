@@ -1,21 +1,51 @@
 body {
-    margin: 0px padding 0px
+    font-family: 'Mali', cursive;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    min-height: 100vh;
+    background-color: black;
 }
 
 .main-background {
     background-image: url("./Tattoo woman.jpg");
     height: 100vh;
-    width: 100vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.contact {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+
+.contact a {
+    padding: 10px 15px;
+    font-size: 1.75rem;
+
+}
 
 .main-nav {
+    padding: 0 10px;
     display: flex;
-    justify-content: flex-end;
-    background-color: rgba(195, 170, 28, 0.421);
+    justify-content: center;
+    background-color: antiquewhite;
+    color: rgb(195, 170, 28);
+    opacity: 0.8;
+}
+
+.secondary .main-nav {
+    justify-content: space-between;
+}
+
+.secondary .home {
+    font-size: 1.25rem;
+    display: flex;
+    align-self: center;
 }
 
 .sticky.main-nav {
@@ -23,13 +53,16 @@ body {
     right: 1px;
 }
 
+
+.main-nav a {
+    color: black;
+    text-decoration: none;
+}
+
 .main-nav li {
     font-size: 2rem;
     display: inline-block;
-    border: 1px solid black;
     padding: 5px 10px;
-    background-color: antiquewhite;
-    text-emphasis-color: black;
     font-style: italic;
 
 }
@@ -37,22 +70,50 @@ body {
 .main-nav button {
     font-size: 2rem;
     display: inline-block;
-    border: 5px solid black;
     padding: 15px 0px;
-    background-color: antiquewhite;
-    text-emphasis-color: black;
+    color: antiquewhite;
     justify-content: center;
 }
 
 .title-container {
+    color: antiquewhite;
     display: flex;
     justify-content: center;
 }
 
+.secondary .title-container {
+    margin-top: 25px;
+    font-size: 3rem;
+}
 
+.text-center {
+    text-align: center;
+}
 
 h1 {
     color: antiquewhite;
     font-size: 6rem;
-    font-style: italic
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+h4 {
+    color: antiquewhite;
+    font-size: 3rem;
+    font-style: italic;
+    margin-top: 0;
+}
+
+.gallery-container {
+    margin: 20px auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery-container img {
+    max-height: 400px;
+    text-align: center;
+    margin: 5px;
 }
